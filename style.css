@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: indigo;
+    padding: 10px 100px;
+}
+.nav-title a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul.nav-bar {
+    display: flex;
+    list-style-type: none;
+}
+.nav-item {
+    margin-right: 15px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 60px 100px;
+}
+
+.hero .hero-title {
+    padding-top: 60px;
+    padding: 30px;
+}
+
+.hero .hero-image img {
+    width: 700px;
+}
