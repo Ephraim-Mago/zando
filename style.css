@@ -8,7 +8,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: indigo;
     padding: 10px 100px;
 }
 .nav-title a {
@@ -51,11 +50,6 @@ ul.nav-bar {
 .hero .hero-title {
     padding: 0 100px;
 }
-.hero .hero-title h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 50px;
-}
 
 .hero .hero-image {
     text-align: center;
@@ -65,8 +59,6 @@ ul.nav-bar {
 }
 
 #service {
-    background-color: indigo;
-    
     padding: 100px 0;
 }
 
@@ -124,6 +116,9 @@ ul.nav-bar {
 .mt-5 {
     margin-top: 5px;
 }
+.mb-5 {
+    margin-bottom: 5px;
+}
 
 #contact {
     padding: 30px;
@@ -159,10 +154,74 @@ ul.nav-bar {
 }
 
 .footer {
-    background-color: indigo;
     padding: 20px;
 }
 
 .footer p {
     margin: 0;
+}
+
+@media (max-width:768px) {
+    .nav .nav-bar {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .hero .hero-title {
+        padding: 0;
+    }
+    .hero .hero-image img {
+        display: none;
+    }
+
+    .grid-column-2 {
+        grid-template-columns: 100%;
+    }
+    .grid-column-3 {
+        grid-template-columns: 100%;
+    }
+    .grid-column-4 {
+        grid-template-columns: 50% 50%;
+    }
+    .grid .grid-card {
+        padding: 5px;
+        margin: 5px;
+    }
+    #service {
+        padding: 30px;
+    }
+    #team {
+        padding: 30px;
+    }
+    .w-200 {
+        width: 100px;
+    }
+    .form {
+        padding: 15px 5px;
+    }
+    .btn-indigo {
+        color: white;
+        font-size: 12px;
+        border-radius: 10px;
+    }
 }
