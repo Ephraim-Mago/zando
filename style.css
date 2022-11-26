@@ -22,24 +22,147 @@ ul.nav-bar {
     list-style-type: none;
 }
 .nav-item {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .nav-link {
     text-decoration: none;
     color: white;
 }
 
+.active {
+    font-weight: bold;
+}
+
+.btn-indigo {
+    background-color: indigo;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
 .hero {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 60px 100px;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    padding: 60px;
 }
-
 .hero .hero-title {
-    padding-top: 60px;
-    padding: 100px;
+    padding: 0 100px;
+}
+.hero .hero-title h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
 }
 
+.hero .hero-image {
+    text-align: center;
+}
 .hero .hero-image img {
-    width: 500px;
+    width: 100%;
+}
+
+#service {
+    background-color: indigo;
+    
+    padding: 100px 0;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+.grid-column-2 {
+    grid-template-columns: 50% 50%;
+}
+.grid-column-3 {
+    grid-template-columns: 33% 33% 33%;
+}
+.grid-column-4 {
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.grid .grid-card {
+    padding: 20px;
+    margin: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.bg-indigo {
+    background-color: indigo;
+}
+.bg-light {
+    background-color: #ddd;
+}
+
+#team {
+    padding: 70px 0;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+#contact {
+    padding: 30px;
+}
+
+.form {
+    width: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form_group {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 30px;
+}
+.form_group input, textarea {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.form_group input {
+    height: 30px;
+}
+
+.form_group input[type=submit] {
+    background-color: white;
+    color: indigo;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: indigo;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
 }
